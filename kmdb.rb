@@ -108,6 +108,50 @@ movie3["rated"] = "PG-13"
 movie3["studio_id"] = studio1["id"]
 movie3.save
 
+actor1 = Actor.new
+actor1["name"] = "Christian Bale"
+actor1.save
+
+actor2 = Actor.new
+actor2["name"] = "Michael Caine"
+actor2.save
+
+actor3 = Actor.new
+actor3["name"] = "Liam Neeson"
+actor3.save
+
+actor4 = Actor.new
+actor4["name"] = "Katie Holmes"
+actor4.save
+
+actor5 = Actor.new
+actor5["name"] = "Gary Oldman"
+actor5.save
+
+actor6 = Actor.new
+actor6["name"] = "Heath Ledger"
+actor6.save
+
+actor7 = Actor.new
+actor7["name"] = "Aaron Eckhart"
+actor7.save
+
+actor8 = Actor.new
+actor8["name"] = "Maggie Gyllenhaal"
+actor8.save
+
+actor9 = Actor.new
+actor9["name"] = "Tom Hardy"
+actor9.save
+
+actor10 = Actor.new
+actor10["name"] = "Joseph Gordon-Levitt"
+actor10.save
+
+actor11 = Actor.new
+actor11["name"] = "Anne Hathaway"
+actor11.save
+
 # Prints a header for the movies output
 puts "Movies"
 puts "======"
